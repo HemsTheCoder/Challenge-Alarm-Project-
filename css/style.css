@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+  *{
+      padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* ------NAVIGATION SECTION-------- */
+#title{
+    background-color: rgb(255, 255, 255);
+}
+.pad{
+    padding: 5% 8%;
+}
+.d-btn{
+    margin-left: 25%;
+}
+.hero{
+margin:0 auto ;
+font-size: 1rem;
+font-weight: bold;
+}
+.mar{
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------Main section-------- */
+
+.ph-img{
+    margin: 20px 0;
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: 1px  2px 5px black;
+    animation: ossilate 2s ease-in-out alternate-reverse infinite;
+}
+@keyframes ossilate {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+    
+}
+.rays{
+    position: absolute;
+}
+.ph-holo{
+    margin-top: 5%;
+    transform: rotateY(180deg);
+}
+.main-title {
+    margin-top: 20%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Aboreto', cursive;
+}
+.sub-title{
+    font-size: 1.2rem;
+    color: rgb(92, 92, 92);
+    
+}
+@media (max-width:500px) {
+    .main-title{
+        font-size: 3rem;
+    }
+}
+/* ------ABOUT SECTION-------- */
+#About{
+    
+    background: radial-gradient(rgb(200, 238, 182),rgb(255, 255, 255)) ;
+}
+.pad-about{
+    padding: 10% 5%;
+}
+video{
+    width: 550px;
+}
+.vid-inner{
+    width: 550px;
+    height: 305px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.vid-outer{
+    width: 600px;
+    padding: 10% 10% 10% 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.585);
+    border-radius: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(255, 255, 255, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin: auto 0;
+}
+.vid{
+    height: 100%;
+    padding-top: 20%;
+    padding-left: 8%;
+   
+}
